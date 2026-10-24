@@ -1,5 +1,5 @@
 :root {
-  /* Identidad visual Shiro Pet Shop */
+  /* Identidad visual Huellitas de Shiro */
 
   --color-primario: #17324D;
   --color-secundario: #246B9B;
@@ -74,6 +74,6 @@ button {
 /* Accesibilidad */
 
 :focus-visible {
-  outline: 3px solid #2e7d32;
+  outline: 3px solid var(--color-acento);
   outline-offset: 3px;
 }
