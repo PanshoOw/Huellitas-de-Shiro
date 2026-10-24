@@ -1,0 +1,79 @@
+:root {
+  /* Identidad visual Shiro Pet Shop */
+
+  --color-primario: #17324D;
+  --color-secundario: #246B9B;
+  --color-acento: #59B9E8;
+
+  --color-fondo: #EEF8FF;
+  --color-blanco: #FFFFFF;
+  --color-texto: #37474F;
+
+  --color-borde: #DCEAF4;
+  --color-resaltado: #E4F4FD;
+
+  /* Configuración global */
+
+  font-family: 'Segoe UI', Arial, sans-serif;
+
+  color: var(--color-texto);
+  background-color: var(--color-fondo);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Reinicio básico de estilos */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Comportamiento predeterminado sin desplazamiento animado */
+html {
+  scroll-behavior: auto;
+}
+
+/* Desplazamiento suave únicamente si el usuario no solicita reducir el movimiento */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Estilos generales de títulos */
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+/* Enlaces */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Botones */
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Accesibilidad */
+
+:focus-visible {
+  outline: 3px solid #2e7d32;
+  outline-offset: 3px;
+}
